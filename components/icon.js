@@ -14,26 +14,26 @@ export default ({ name }) => {
     <i alt={name}>
       {(() => {
         switch (name.toLowerCase()) {
-          case "email":
-            return <Email />;
-          case "github":
-            return <GitHub />;
-          case "instagram":
-            return <Instagram />;
+          case "twitter":
+            return <Twitter />;
           case "linkedin":
             return <LinkedIn />;
           case "xing":
             return <Xing />;
-          case "medium":
-            return <Medium />;
-          case "meetup":
-            return <Meetup />;
+          case "github":
+            return <GitHub />;
           case "npm":
             return <NPM />;
+          case "medium":
+            return <Medium />;
+          case "instagram":
+            return <Instagram />;
+          case "meetup":
+            return <Meetup />;
           case "keybase":
             return <Keybase />;
-          case "twitter":
-            return <Twitter />;
+          case "email":
+            return <Email />;
         }
       })()}
     </i>

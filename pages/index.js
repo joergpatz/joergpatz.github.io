@@ -28,7 +28,7 @@ export default (props) => (
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/joergpatzer" rel="me" title="Xing" className="u-url">
+            <a href="http://www.xing.com/profile/Joerg_Patzer2" rel="me" title="Xing" className="u-url">
               <Icon name="Xing" />
             </a>
           </li>
