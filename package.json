@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "deploy": "next build && next export && git add out/ && git commit -m \"deploy to remote ghpages\" && git subtree push --prefix out ghpages master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
