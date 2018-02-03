@@ -1,0 +1,32 @@
+{
+  "name": "@joergpatz/about-me",
+  "version": "1.0.0",
+  "description": "Source code for my personal website",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joergpatz/about-me.git"
+  },
+  "keywords": [
+    "personal-website",
+    "personal-site"
+  ],
+  "author": {
+    "name": "Joerg Patzer"
+  },
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/joergpatz/about-me/issues"
+  },
+  "homepage": "https://github.com/joergpatz/about-me#readme",
+  "dependencies": {
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
