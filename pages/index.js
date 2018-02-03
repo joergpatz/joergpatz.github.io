@@ -1,5 +1,5 @@
+import Icon from "../components/icon";
 import Layout from "../layout/main";
-import * as colors from "../layout/colors.js";
 
 export default (props) => (
   <Layout>
@@ -13,6 +13,61 @@ export default (props) => (
             in Berlin, Germany.
           </p>
         </article>
+      </section>
+
+      <section id="social">
+        <ul>
+          <li>
+            <a href="https://twitter.com/joergpatz" rel="me" title="Twitter" className="u-url">
+              <Icon name="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/joergpatzer" rel="me" title="LinkedIn" className="u-url">
+              <Icon name="LinkedIn" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/joergpatzer" rel="me" title="Xing" className="u-url">
+              <Icon name="Xing" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/joergpatz" rel="me" title="GitHub" className="u-url">
+              <Icon name="GitHub" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.npmjs.com/~joergpatz" rel="me" title="npm" className="u-url">
+              <Icon name="npm" />
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@joergpatz" rel="me" title="Medium" className="u-url">
+              <Icon name="Medium" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/joergpatz" rel="me" title="Instagram" className="u-url">
+              <Icon name="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.meetup.com/members/184183468" rel="me" title="Meetup" className="u-url">
+              <Icon name="Meetup" />
+            </a>
+          </li>
+          <li>
+            <a href="https://keybase.io/joergpatz" rel="me" title="Keybase" className="u-url">
+              <Icon name="Keybase" />
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@joergpatz.com" rel="me" title="Email" className="u-email">
+              <Icon name="Email" />
+            </a>
+          </li>
+        </ul>
       </section>
     </section>
 
@@ -42,7 +97,6 @@ export default (props) => (
         flex-wrap: wrap;
       }
       #social > ul > li > a {
-        color: ${colors.black};
         text-decoration: none;
         margin: 0.5em;
         display: block;

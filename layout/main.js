@@ -56,10 +56,17 @@ export default (props) => (
         margin: 0;
         font-size: 1rem;
         font-weight: 200;
+        background-color: ${colors.background};
+        color: ${colors.foreground};
       }
       ::selection {
-        background-color: ${colors.black};
-        color: ${colors.white};
+        background-color: ${colors.foreground};
+        color: ${colors.background};
+      }
+      svg {
+        width: 28px;
+        height: 28px;
+        fill: ${colors.foreground};
       }
     `}</style>
   </main>
