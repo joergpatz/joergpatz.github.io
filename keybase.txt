@@ -4,9 +4,9 @@ https://keybase.io/joergpatz
 
 I hereby claim:
 
-  * I am an admin of http://joergpatz.com
+  * I am an admin of https://joergpatz.github.io
   * I am joergpatz (https://keybase.io/joergpatz) on keybase.
-  * I have a public key ASDNBMlvT6MFzxU_p6hVlBoRByu0aIm9abyiZKVBrQ4Lhgo
+  * I have a public key ASCjbaKqa-98H96QXLaSD42Zc_Vehq0Emj_3bbE-cYtlKQo
 
 To do so, I am signing this object:
 
@@ -15,37 +15,38 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "0101c9ad1a3ca4979f6e83188945d0d70c65714dee10731d22d411011a9517fc204c0a",
       "host": "keybase.io",
-      "kid": "0120cd04c96f4fa305cf153fa7a855941a11072bb46889bd69bca264a541ad0e0b860a",
+      "kid": "0120a36da2aa6bef7c1fde905cb6920f8d9973f55e86ad049a3ff76db13e718b65290a",
       "uid": "1b2c6bc8bf5030847583acffbdd68c19",
       "username": "joergpatz"
     },
     "merkle_root": {
-      "ctime": 1517694569,
-      "hash": "ce1c2e19638b4d703bfc9ccc6884660ad4211631ff378e46f542886790e550205deaab8a4db09611823809fdc5702b6151fdc579ab46f5c7c42892d86df46e41",
-      "hash_meta": "3f5fca22ee89dc36737854420fe9b2ef11a2023c3847b4bab286744cb2db19cc",
-      "seqno": 2027922
+      "ctime": 1702068291,
+      "hash": "ec5a4729d21e46b8ee3b42fc81f60d616b2ca31e8dcb89832efc68040cd9fa100ee7b7ea28963303c0fc0cb0c44efb571c8650ef9707008f510b5d383f125328",
+      "hash_meta": "4c2b4bbceeade52347f3f8efef0c4bfee978e810245c2266ba3e8f59f0e431f9",
+      "seqno": 25222717
     },
     "service": {
-      "hostname": "joergpatz.com",
-      "protocol": "http:"
+      "entropy": "hDRSt+8g9FxjDkd6K13tW5kM",
+      "hostname": "joergpatz.github.io",
+      "protocol": "https:"
     },
     "type": "web_service_binding",
-    "version": 1
+    "version": 2
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "1.0.39"
+    "version": "6.2.4"
   },
-  "ctime": 1517694587,
+  "ctime": 1702068295,
   "expire_in": 504576000,
-  "prev": "18fa67484a8dbe986d8374f0ea91bfc03c510e9f1efd9126f8d5f0ed0cc78331",
-  "seqno": 11,
+  "prev": "5b588bbff23ac8681160d3f1e0e22a72c25eb4734b0d4346b7944faa62bfecc3",
+  "seqno": 34,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzQTJb0+jBc8VP6eoVZQaEQcrtGiJvWm8omSlQa0OC4YKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYzlhZDFhM2NhNDk3OWY2ZTgzMTg4OTQ1ZDBkNzBjNjU3MTRkZWUxMDczMWQyMmQ0MTEwMTFhOTUxN2ZjMjA0YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2QwNGM5NmY0ZmEzMDVjZjE1M2ZhN2E4NTU5NDFhMTEwNzJiYjQ2ODg5YmQ2OWJjYTI2NGE1NDFhZDBlMGI4NjBhIiwidWlkIjoiMWIyYzZiYzhiZjUwMzA4NDc1ODNhY2ZmYmRkNjhjMTkiLCJ1c2VybmFtZSI6ImpvZXJncGF0eiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNzY5NDU2OSwiaGFzaCI6ImNlMWMyZTE5NjM4YjRkNzAzYmZjOWNjYzY4ODQ2NjBhZDQyMTE2MzFmZjM3OGU0NmY1NDI4ODY3OTBlNTUwMjA1ZGVhYWI4YTRkYjA5NjExODIzODA5ZmRjNTcwMmI2MTUxZmRjNTc5YWI0NmY1YzdjNDI4OTJkODZkZjQ2ZTQxIiwiaGFzaF9tZXRhIjoiM2Y1ZmNhMjJlZTg5ZGMzNjczNzg1NDQyMGZlOWIyZWYxMWEyMDIzYzM4NDdiNGJhYjI4Njc0NGNiMmRiMTljYyIsInNlcW5vIjoyMDI3OTIyfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImpvZXJncGF0ei5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM5In0sImN0aW1lIjoxNTE3Njk0NTg3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjE4ZmE2NzQ4NGE4ZGJlOTg2ZDgzNzRmMGVhOTFiZmMwM2M1MTBlOWYxZWZkOTEyNmY4ZDVmMGVkMGNjNzgzMzEiLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAFP73NWmncm0cTN0VAW1zOMOBZkRP+B8V5UkqxdyTaZBXE9jtL0tKU3MN3crQoB5r5BP9VVueMsCA0QWsl7UYDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIACB7+J65PH+JS2IZZutGggcfR4K1tPR6qaAFt4Kp2zKo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo22iqmvvfB/ekFy2kg+NmXP1XoatBJo/922xPnGLZSkKp3BheWxvYWTESpcCIsQgW1iLv/I6yGgRYNPx4OIqcsJetHNLDUNGt5RPqmK/7MPEIB4ZkWigm+Op1DOcH/W5zc5FVPjJIXE1smEE/1V2JDi4AgHCo3NpZ8RAZUx55fngIUbDfjOc6LRtIczgX6PbgSnY/pbOUajgQBGZjFmzKMVfYGllXijhPT85T28+6ARWexOgI6VjR87/AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIL1edcf8sb1de9j7vO2f+Sv1SRsQayUmr/QyCCRw3/9vo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
